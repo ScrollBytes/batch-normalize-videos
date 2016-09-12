@@ -7,7 +7,7 @@ Open terminal (CTRL+ALT+T) and type the following commands one at a time.
 * sudo apt-get install ffmpeg
 * sudo apt-get install mp3gain
 
-On versions of linux before 16.04 you'll have to install FFMPEG another way such as this - http://www.faqforge.com/linux/how-to-install-ffmpeg-on-ubuntu-14-04/
+On versions of Ubuntu before 16.04 or on other linux distributions you may have to install FFMPEG another way such as this - http://www.faqforge.com/linux/how-to-install-ffmpeg-on-ubuntu-14-04/
 
 ## How to use ...
 
