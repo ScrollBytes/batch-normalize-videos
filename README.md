@@ -1,7 +1,7 @@
 # batch-normalize-videos
 Shell Script to batch normalize videos on Linux using FFMPEG and MP3Gain
 
-##Install FFMPEG and MP3Gain
+## Install FFMPEG and MP3Gain
 Open terminal (CTRL+ALT+T) and type the following commands one at a time.
 
 * sudo apt-get install ffmpeg
@@ -14,13 +14,13 @@ On versions of linux before 16.04 you'll have to install FFMPEG another way such
 * Place "normalize.sh" in an empty folder.
 * Make it executable by opening terminal (CTRL+ALT+T) and typing "chmod +x /path/to/script/normalize.sh"
 
-Replace "/path/to/script/" with the actual path on your computer. You can get the path by opening your file manager, right-click on "install-fonts.sh" and click "Copy path(s)".
-
 ## Then ...
 
-Copy your zip folders with TTF or OTF fonts into same directory as "install-fonts.sh"
-Open terminal and type "/path/to/script/install-fonts.sh" and hit Enter key to run script.
-Fonts will be installed (moved to Lubuntu fonts directory)!
+1. Copy your videos into same directory as "normalize.sh"
+2. Open terminal and type "/path/to/script/normalize.sh" and hit Enter key to run script.
+3. Script will normalize all videos in the folder and move original videos into a folder called "bin" where you can decide what you want to do with them.
+ 
 
+Replace "/path/to/script/" with the actual path on your computer. You can get the path by opening your file manager, right-click on "install-fonts.sh" and click "Copy path(s)".
 
 Tested on Lubuntu 14.04
