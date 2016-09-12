@@ -1,7 +1,7 @@
 # batch-normalize-videos
 Shell Script to batch normalize videos on Linux using FFMPEG and MP3Gain
 
-## Install FFMPEG and MP3Gain
+## Install FFMPEG and MP3Gain first
 Open terminal (CTRL+ALT+T) and type the following commands one at a time.
 
 * sudo apt-get install ffmpeg
