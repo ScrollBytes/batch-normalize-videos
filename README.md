@@ -21,6 +21,6 @@ On versions of Ubuntu before 16.04 or on other linux distributions you may have 
 3. Script will normalize all videos in the folder and move original videos into a folder called "bin" where you can decide what you want to do with them.
  
 
-Replace "/path/to/script/" with the actual path on your computer. You can get the path by opening your file manager, right-click on "install-fonts.sh" and click "Copy path(s)".
+Replace "/path/to/script/" with the actual path on your computer. You can get the path by opening your file manager, right-click on "normalize.sh" and click "Copy path(s)".
 
 Tested on Lubuntu 14.04
