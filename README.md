@@ -1,10 +1,10 @@
 # batch-normalize-videos
-Shell Script to batch normalize videos on Linux using FFMPEG and MP3Gain
+Shell Script to batch normalize videos from command line on Linux using FFMPEG and MP3Gain
 
-## Install FFMPEG and MP3Gain first
+## Step 1: Install FFMPEG and MP3Gain first
 Open terminal (CTRL+ALT+T) and type the following commands one at a time:
 
-# If you're using Ubuntu 16.04
+#### ** If you're using Ubuntu 16.04 ONLY! **
 * sudo apt-get install ffmpeg
 * sudo add-apt-repository ppa:flexiondotorg/audio
 * sudo apt-get update
@@ -12,7 +12,7 @@ Open terminal (CTRL+ALT+T) and type the following commands one at a time:
 
 Details on MP3Gain PPA for 16.04 here - https://launchpad.net/~flexiondotorg/+archive/ubuntu/audio
 
-# If you're using Ubuntu 14.04
+#### ** If you're using Ubuntu 14.04 ONLY! **
 * sudo add-apt-repository ppa:mc3man/trusty-media
 * sudo apt-get update
 * sudo apt-get dist-upgrade
@@ -21,7 +21,7 @@ Details on MP3Gain PPA for 16.04 here - https://launchpad.net/~flexiondotorg/+ar
 
 Details on FFMPEG PPA for 14.04 here - http://www.faqforge.com/linux/how-to-install-ffmpeg-on-ubuntu-14-04/
 
-## How to use ...
+## Step 2: How to use ...
 
 * Place "normalize.sh" in an empty folder.
 * Make it executable by opening terminal (CTRL+ALT+T) and typing "chmod +x /path/to/script/normalize.sh"
